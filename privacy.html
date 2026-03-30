@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Wallet - Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #1d1d1f;
+            background: #fff;
+            padding: 24px;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        h1 { font-size: 28px; font-weight: 700; margin: 32px 0 8px; }
+        h2 { font-size: 20px; font-weight: 600; margin: 28px 0 8px; color: #1d1d1f; }
+        p { margin: 8px 0 16px; color: #333; }
+        .effective { color: #86868b; font-size: 14px; margin-bottom: 24px; }
+        .highlight {
+            background: #f0faf0;
+            border-left: 4px solid #34c759;
+            padding: 16px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .highlight p { margin: 0; color: #1d1d1f; font-weight: 500; }
+        ul { padding-left: 24px; margin: 8px 0 16px; }
+        li { margin: 6px 0; color: #333; }
+        .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #e5e5e5; color: #86868b; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p class="effective">Effective Date: March 27, 2026</p>
+
+    <div class="highlight">
+        <p>Your data never leaves your device. Emotion Wallet is built with privacy as a core principle, not an afterthought.</p>
+    </div>
+
+    <h2>What We Collect</h2>
+    <p>Emotion Wallet accesses the following data, all of which stays on your device:</p>
+    <ul>
+        <li><strong>Heart Rate Data</strong> — Read from Apple HealthKit to detect emotional spikes that may indicate impulse purchasing behavior. We only check whether your heart rate is elevated above your resting baseline, not the exact number.</li>
+        <li><strong>Resting Heart Rate</strong> — Used as a baseline to determine what constitutes an emotional spike for you personally.</li>
+    </ul>
+
+    <h2>What We Do NOT Collect</h2>
+    <ul>
+        <li>No bank account or credit card information</li>
+        <li>No purchase history or transaction data</li>
+        <li>No browsing or shopping history</li>
+        <li>No personal identification information</li>
+        <li>No location data</li>
+        <li>No contacts or phone data</li>
+        <li>No analytics, advertising, or tracking SDKs</li>
+    </ul>
+
+    <h2>AI Coaching</h2>
+    <p>Emotion Wallet includes an optional AI coaching feature powered by the Claude API. When you interact with the AI coach:</p>
+    <ul>
+        <li>Only generic, contextual prompts are sent to the API (e.g., "the user may be considering an impulse purchase")</li>
+        <li>No health data, heart rate values, purchase details, or personal information is ever sent</li>
+        <li>Your API key (if provided) is stored securely in the iOS Keychain on your device</li>
+        <li>You can use the app without the AI coaching feature</li>
+    </ul>
+
+    <h2>Data Storage</h2>
+    <p>All app data (settings, intervention history, streak data) is stored locally on your device using iOS standard storage mechanisms (UserDefaults and SwiftData). No data is synced to any cloud service or external server.</p>
+
+    <h2>HealthKit Integration</h2>
+    <p>Emotion Wallet requests read-only access to heart rate data through Apple HealthKit. We never write to or modify your health data. Heart rate monitoring is used solely to provide timely intervention suggestions when emotional spending patterns are detected. You can revoke HealthKit access at any time through iOS Settings.</p>
+
+    <h2>Subscriptions</h2>
+    <p>Emotion Wallet Pro subscriptions are processed entirely through Apple's App Store. We do not collect, store, or have access to any payment information. Subscription management is handled through your Apple ID account.</p>
+
+    <h2>Third-Party Services</h2>
+    <p>Emotion Wallet does not integrate any third-party analytics, advertising, crash reporting, or tracking services. The only external service used is the Claude API for AI coaching, which is optional and controlled by the user.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>Emotion Wallet is not intended for use by children under the age of 13. We do not knowingly collect personal information from children.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>If we make changes to this privacy policy, we will update the effective date and notify users through the app. Significant changes will require renewed consent where applicable.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have questions about this privacy policy or Emotion Wallet's data practices, please contact us at:</p>
+    <p><strong>Email:</strong> privacy@emotionwallet.app</p>
+
+    <div class="footer">
+        <p>&copy; 2026 Emotion Wallet. All rights reserved.</p>
+    </div>
+</body>
+</html>
