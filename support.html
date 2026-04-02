@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emotion Wallet - Support</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --purple: #7C3AED;
+    --purple-light: #EDE9FE;
+    --text: #1a1a2e;
+    --text-secondary: #64748b;
+    --bg: #FAFAFA;
+    --card: #FFFFFF;
+  }
+  body {
+    font-family: 'DM Sans', -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+  .container { max-width: 680px; margin: 0 auto; padding: 60px 24px; }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .app-icon {
+    width: 80px; height: 80px;
+    background: linear-gradient(135deg, #7C3AED, #a78bfa);
+    border-radius: 20px;
+    display: inline-flex; align-items: center; justify-content: center;
+    margin-bottom: 16px;
+    font-size: 36px;
+  }
+  .header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .header p {
+    color: var(--text-secondary);
+    font-size: 16px;
+  }
+
+  .card {
+    background: var(--card);
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+  .card h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--purple);
+  }
+  .card p { color: var(--text-secondary); margin-bottom: 12px; font-size: 15px; }
+  .card a { color: var(--purple); text-decoration: none; font-weight: 500; }
+  .card a:hover { text-decoration: underline; }
+  
+  .faq-item { margin-bottom: 20px; }
+  .faq-item h3 { font-size: 16px; font-weight: 600; margin-bottom: 6px; }
+  .faq-item p { margin-bottom: 0; }
+
+  .contact-method {
+    display: flex; align-items: center; gap: 12px;
+    padding: 16px;
+    background: var(--purple-light);
+    border-radius: 12px;
+    margin-bottom: 12px;
+  }
+  .contact-method .icon { font-size: 24px; }
+  .contact-method .info { flex: 1; }
+  .contact-method .info .label { font-size: 13px; color: var(--text-secondary); }
+  .contact-method .info .value { font-size: 15px; font-weight: 600; }
+
+  .footer {
+    text-align: center;
+    padding-top: 32px;
+    color: var(--text-secondary);
+    font-size: 13px;
+  }
+  .footer a { color: var(--purple); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="app-icon">💜</div>
+    <h1>Emotion Wallet</h1>
+    <p>Your personal emotional wellness companion</p>
+  </div>
+
+  <div class="card">
+    <h2>Contact Support</h2>
+    <p>We're here to help! Reach out to us through any of the following channels:</p>
+    <div class="contact-method">
+      <div class="icon">📧</div>
+      <div class="info">
+        <div class="label">Email</div>
+        <div class="value"><a href="mailto:support@emotionwallet.app">support@emotionwallet.app</a></div>
+      </div>
+    </div>
+    <p>We typically respond within 24-48 hours.</p>
+  </div>
+
+  <div class="card">
+    <h2>Frequently Asked Questions</h2>
+    
+    <div class="faq-item">
+      <h3>How do I track my emotions?</h3>
+      <p>Open the app and tap the "+" button to log a new emotion entry. You can select your mood, add notes, and optionally include heart rate data from HealthKit.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Is my data private?</h3>
+      <p>Yes. Your emotional data is stored securely on your device and in your private iCloud account. We do not share your personal data with third parties. See our <a href="privacy.html">Privacy Policy</a> for details.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I manage my subscription?</h3>
+      <p>You can manage or cancel your subscription at any time through Settings → Apple ID → Subscriptions on your iPhone or iPad.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I delete my account and data?</h3>
+      <p>Go to Settings within the app and tap "Delete Account." This will permanently remove all your data.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>The app isn't working properly. What should I do?</h3>
+      <p>Try closing and reopening the app, or restart your device. If the issue persists, please contact us at <a href="mailto:support@emotionwallet.app">support@emotionwallet.app</a> with a description of the problem.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2026 Emotion Wallet. All rights reserved.</p>
+    <p style="margin-top:8px;">
+      <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp;
+      <a href="terms.html">Terms of Use</a>
+    </p>
+  </div>
+</div>
+</body>
+</html>
